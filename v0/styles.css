@@ -1,0 +1,15 @@
+#lista {
+    list-style: none; /* Remuevo el estilo de lista */
+    margin: 0;
+    padding: 0;
+}
+
+#lista > li {
+    /*
+    Uso flexbox para que los elementos dentro del li se vean en una fila,
+    trabajaremos con flexbox, en profundidad, más adelante.
+    */
+    display: flex;
+    flex-direction: row; /* Esto es para que los elementos se vean en una fila */
+    justify-content: space-between;
+}
